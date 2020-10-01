@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<html lang="fr">
+	<head>
+		<!-- type d'encodage -->
+		<meta charset="UTF-8" />
+		<!-- titre de l'onglet page -->
+		<title>MyLandingPage</title>
+		<!-- icone de la page -->
+		<link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+		<!-- lien de vers la page de style css -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!-- permet de commencer à faire du responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- import des fonts depuis Google Font, ici Raleway et ShadowIntoLightTwo -->
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+		
+		<!-- Pour utiliser des éléments de GetBootStrap.com pour les galleries, menu, ... -->
+		<!-- Attention, c'est la clé du prof, il faut se créer un compte -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<header>
+			<div class="banner">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				  <a class="navbar-brand" href="#">
+				  	<img src="images/logo_dott.png" alt="logo dott" class="navbar-brand-logo">
+				  </a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#intro">Intro <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#lieu">Les villes</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#contact">Contact</a>
+				      </li>
+				      <!--
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				      </li>
+				  	 -->
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+		</header>
+
+		<section id="intro" class="intro">
+			<div>
+				<!--<img src="images/map-cyan.svg" alt="fond vert">-->
+				<div class="container_blocks">
+					<div class="pic_block">
+						<img src="images/scooter-left.svg"	alt="trotinette">
+					</div>
+					<div class="block">
+						<div class="parttitle">
+							<h2>Une autre idée de la mobilité</h2>
+						</div>
+						<p>Nous sommes Dott. Nous rêvons d'un futur où nos villes européennes seront libérées des embouteillages et de la pollution. Nos trottinettes électriques partagées, et bientôt nos vélos à assistance électrique, ne ressemblent à aucun autre. Notre start-up franco-européenne collabore avec chaque ville pour établir des solutions sur mesure. Transformons la ville ensemble !
+						</p>
+					</div>
+					<div class="container_cards">
+						<div class="card">
+							<h3> App sur Android</h3>
+							<a href="">
+								<img src="images/play-store.svg" alt="Lien Google Play Store">
+							</a>
+						</div>
+						<div class="card">
+							<h3> App sur iOS</h3>
+							<a href="">
+								<img src="images/app-store.svg"	alt="Lien App Store">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="lieu">
+			<div>
+				<!-- <img src="" alt="fond blanc"> -->
+				<div>
+					<div>
+						<div>
+							<h2>Une solution adaptée pour chaque ville</h2>
+						</div>
+						<p>Plutôt que d’imposer un modèle unique, nous concevons des solutions spécifiques à un usage urbain et partagé, en nous adaptant aux particularités de chaque territoire européen. Nos équipes locales travaillent en amont avec les municipalités. A chaque ville sa solution de micro-mobilité durable conçue de manière collaborative, responsable et graduelle.
+						</p>
+						<p><a href="#contact">Ensemble</a>, imaginons les solutions de mobilité durables.
+						</p>
+					</div>
+					<div>
+						<img src="images/phone@2x.png"	alt="mobile avec screenshot de l'app">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div>
+				<img src="images/map-yellow.svg" alt="fond jaune">
+				<div>
+					<div>
+						<img src="images/scooter-right.svg"	alt="trotinette">
+					</div>
+					<div>
+						<div>
+							<h2>Des questions à nous poser ?</h2>
+						</div>
+						<p>Vous travaillez pour une municipalité, êtes une utilisatrice, un utilisateur, un partenaire, un journaliste… ou vous avez simplement envie de nous écrire, remplissez le formulaire ci-dessous. A très vite :)
+						</p>
+					</div>
+					<div>
+						<input type="text" name="name" placeholder="Your Name">
+						<input type="email" name="email" placeholder="Your email">
+						<input type="text" name="number" placeholder="Your phone number">
+						<textarea name="message" placeholder="Your Message">
+						</textarea>
+						<input type="submit" name="submit" value="Send">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="newsletter">
+			<div>
+				<img src="images/map-yellow.svg" alt="fond jaune">
+				<div>
+					<div>
+						<img src="images/scooter-right.svg"	alt="trotinette">
+					</div>
+					<div>
+						<div>
+							<h2>Notre newsletter :</h2>
+						</div>
+						<a href="" class="btn_validate">S'inscrire maintenant : </a>
+						<input type="email" name="email" placeholder="Your email">	
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<footer>
+			<div>
+				<a href="https://ridedott.com/fr">
+					<img src="images/logo_dott.png" alt="logo dott">
+				</a>
+			</div>
+			</div>
+			<div>
+				<a href="https://twitter.com/dott">
+					<img src="images/social-twitter.svg" alt="logo twitter">
+				</a>
+				<a href="https://www.instagram.com/dott_eu">
+					<img src="images/social-instagram.svg" alt="logo instagram">
+				</a>
+				<a href="https://www.facebook.com/dott.eu">
+					<img src="images/social-facebook.svg" alt="logo facebook">
+				</a>
+			</div>
+		</footer>
+	</body>	
+</html>

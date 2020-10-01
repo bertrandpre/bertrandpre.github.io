@@ -1,0 +1,109 @@
+
+
+/* rajoute une ligne autour de chacune des boites */
+div{
+	border: 1px solid red;
+	justify-content: space-between;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h2{
+	color: red;
+	font-size: 24px;
+	background-color: yellow;
+	font-family: 'Shadows Into Light Two', cursive;
+	margin-top: 30px;
+}
+
+p{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+.banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute; top: 0; left: 0 ;
+}
+
+.navbar-brand-logo{
+	width: 20vw;
+}
+
+.intro{
+	background-color: #9bf3db;
+    background-image: url(images/map-cyan.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+.container_blocks{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-start: right;
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.block{
+
+}
+
+
+.pic_block{
+	max-width: 50vw;
+}
+
+.container_cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.card{
+	background: white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	text-align: center;
+	padding: 0 200px: 
+}
+
+.btn_validate{
+	text-decoration: none;
+	color: blue;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 4px;
+}
+.btn_validate:hover{
+	text-decoration: none;
+	color: gray;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 4px;
+}
+
+
+.parttitle{
+
+}
+
+
+@media (max-width: 768px){
+	.container_cards{
+	grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 500px){
+	.container_cards{
+	grid-template-columns: 1fr;
+	}
+}
