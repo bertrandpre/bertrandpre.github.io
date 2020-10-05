@@ -2,7 +2,7 @@
 
 /* rajoute une ligne autour de chacune des boites */
 div{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	justify-content: space-between;
 }
 
@@ -24,11 +24,13 @@ p{
 }
 
 .banner{
-	display: flex;
+	/*display: flex;*/
+	position: fixed;
 	justify-content: space-between;
 	align-items: center;
 	position: absolute; top: 0; left: 0 ;
 }
+
 
 .navbar-brand-logo{
 	width: 20vw;
@@ -40,7 +42,11 @@ p{
     background-repeat: no-repeat;
 }
 
-
+.count{
+	background-color: black;
+	font-style: italic;
+	color: red
+}
 
 .container_blocks{
 	display: grid;
@@ -57,6 +63,7 @@ p{
 
 .pic_block{
 	max-width: 50vw;
+	object-fit: true;
 }
 
 .container_cards{
@@ -95,6 +102,28 @@ p{
 
 }
 
+.block_count{
+	text-align: center;
+}
+
+#byebye{
+	position:fixed;
+	background: rgba(0,0,0,0.6);
+	top :0vh;
+	left : 0vw;
+	width: 100vw;
+	height: 100vw;
+	padding: 10vw;
+	text-align: center;
+
+	display: none;
+}
+
+#byebye img{
+	min-width:50vw; 
+	max-width: 100vw;
+	max-height: 100vw;
+}
 
 @media (max-width: 768px){
 	.container_cards{

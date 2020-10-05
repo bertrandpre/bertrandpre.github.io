@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <html lang="fr">
 	<head>
 		<!-- type d'encodage -->
@@ -12,6 +13,16 @@
 		
 		<!-- permet de commencer à faire du responsive -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--importation fichier jQuery - Bibliotèque js -->
+		<script type="text/javascript" src="jquery-3.5.1.min.js" defer></script>
+		
+		<!-- script typerwriter-->
+		<script type="text/javascript" src='typewriterjs-master/dist/core.js' defer></script>
+
+		<!--importation fichier javascript, 
+			defer permet de charger après le reste de la page-->
+		<script type="text/javascript" src="script.js" defer></script>
 		
 		<!-- import des fonts depuis Google Font, ici Raleway et ShadowIntoLightTwo -->
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
@@ -56,6 +67,10 @@
 		<section id="intro" class="intro">
 			<div>
 				<!--<img src="images/map-cyan.svg" alt="fond vert">-->
+				
+				<br>
+				<br>
+				<br>	
 				<div class="container_blocks">
 					<div class="pic_block">
 						<img src="images/scooter-left.svg"	alt="trotinette">
@@ -66,6 +81,15 @@
 						</div>
 						<p>Nous sommes Dott. Nous rêvons d'un futur où nos villes européennes seront libérées des embouteillages et de la pollution. Nos trottinettes électriques partagées, et bientôt nos vélos à assistance électrique, ne ressemblent à aucun autre. Notre start-up franco-européenne collabore avec chaque ville pour établir des solutions sur mesure. Transformons la ville ensemble !
 						</p>
+						<div id="typewriter">Hey</div>
+					</div>
+					<div>
+						<h2>
+							Compte à rebours
+						</h2>
+						<h3 class="count" id="count">
+							13j 22h 44min 33s 435ms
+						</h3>
 					</div>
 					<div class="container_cards">
 						<div class="card">
@@ -168,5 +192,15 @@
 				</a>
 			</div>
 		</footer>
+		<div id="byebye">
+<!--  <a href=""></a> -->
+				<img src="images/byebyeschwarze.gif">
+				<!-- <iframe src="https://giphy.com/embed/d4aTnvQuF6xyfgWI" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen>
+				</iframe> -->
+				<p>
+					<a href="https://giphy.com/gifs/apprenticenbc-2016-nbc-d4aTnvQuF6xyfgWI">via GIPHY
+					</a>
+				</p>
+		</div>
 	</body>	
 </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<html lang="fr">
+	<head>
+		<!-- type d'encodage -->
+		<meta charset="UTF-8" />
+		<!-- titre de l'onglet page -->
+		<title>Maestro CountDown </title>
+		<!-- icone de la page -->
+		<link id="gsFavicon" rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFVUlEQVRYR+2Xe0xTVxzHv6e9vbZYC7KCHS0M6mAFJqVUsK3GIT7mOyYytyxswcyo08yUTgiZiy4LW5apc0vUf8zUuLkAkmgWls2wxRjCdOLExyqyhgCj5dkK5VEi0J7llFYL+ErQmS27SZN7z/2d3/mc3+m55/slGH8RAHRCW/Ax9N3EOPbMrol975dvXFuw4wPGfKrNfpCJACYAMwDcARD6jt2z3y8BpGwAIgAjAASBmQ8AuB7oGyRfACAMwHBInAfAHwAGWc7gIDwAA4C4wCAdgQFYIhbDgHIAWAEkAYgH8AOAXgA+AKx/AoBEAOcCydngagBVAFg+tjwMOhZACoAaAD1BgIxNNRdWtF244FLqjdBlG+44AcIDQg7o2UlIBYAMAPIdN2+mXzt+YkC3cdNolGb2aLPD0WVQKs+/Q0h/YAIqAJ1531e+3mOz9SjmZvpeWjh/xGa39ySrVOcthNxmeQDoGFwQQF/U2b364v79iJk3D3GmBfB0dQAchy4v7StPSzkAQA/guQ8Hh4w/vbcd6W9thEytxnBvLzixuB8ewdEvdQmsImwZB3fU29ZdP/kNFDot4kzZ8HTZwYtlw0Iex/YmJLCKLGRLdrcC5vqGNb8dOeJTGbKIetFiDDocFCKRoLnf46w06A8FAYraO41VhYW+tPx8okhOxpDT7fVxlJOEz/x9r0pRCWAegNGtly6vtJaVEYVeD/XSpRhqa/P6ODEXroy69UlERBmA+QAa7gHYGtfUHj5MYw0GEp+T4wegIhFpdg+4Kk2ZB+8BdBurindS7dv5JFqjwZCrl1IhiDw+vvWj6ZKjALIAeN+9fGXVjYoKotLqEL/kXr6o2bOde8Q8m5ARgO2JATyfomndRcgEgHKi0urHAURrNK7dQsIm9B8DiEnR2D8g5OvxS/APVmCqAHqzrXH1VP6EUwXIMD/2Lug0VhUXTdoFUwV42WxrWl97+CBVGgxE/dBt6DJWFVueOEDqtrprudbSUjorI+NBAHMBSIs7e145W2R+GgA3cq2l3z0KIMzc2LKopuRjmpqXN+5DNNUlSN1W91gA0y2NTdnVJSXPEqAlu/rZVuB/gH9JBbZcvrLKWlFOYrR6qEOO4wedhpN3QbuDUuE4PcC+A9MtjY9XgS0XL62qP3OGKLS6MQB/vmkkOiXJtZtMPo5Tt9bW5d6oKKfK9DSizl4Ct6OdCqeJSDf1ukrnpB4ihDAAibmhaVH1ZyV0zht5JJIJkp5uKhSKSFSyxr6Hu3sa+rZft66sO36MqDL1UGcvg9vh8OeLTtS4dovvA7CjviHXevo0jdXpSOLyZRhw3qZEwBNxpDRIzERkeHGn65Vzn5ZQfX4+UaanYcDZR4lAQGZGSu2FY8cxE68SS1PLkqsnTiAuy4TE5Tl388kjpS7LWAUyATQHFZHW3Niy7seCbT7qBQmPV2PU7aZCnhdMk0e4az7fx+T4TABtO1vbF596M9cniY4hM+RyjA4OUWEYJ+AlM7p//erAnwAiADRamlrWni143zc02E9mJSXB43ZTEc8LJBER7uov9l0NSPtTYwAiUZYsKmqFqaAAMVkGeJxOvyLmeB7w3Bn5dv3avwD8LJLJXpBIw5abCnchJiN9LE4AcGEyjLhdnrING+zMV/BSqZyXSl+bu3kz1Etfhaeraywfx4H6MHxyzYoWALWhmpDp9BdlsQpvXytTzH4zQgPmh93XA2C6fxYzIDKFwtvX0RHiB/0miTmkm4G4SGZSZLGxvr7W1pB8/ukKAdwKmJpx9utRRpANwFzQo66HGdzQvpO84cOMaqjrfaJxz9Id+6vxN2SIdApjiCW/AAAAAElFTkSuQmCC">
+		<!-- lien de vers la page de style css -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!-- permet de commencer à faire du responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--importation fichier jQuery - Bibliotèque js -->
+		<script type="text/javascript" src="jquery-3.5.1.min.js" defer></script>
+		
+		<!-- script typerwriter-->
+		<script type="text/javascript" src='typewriterjs-master/dist/core.js' defer></script>
+
+		<!--importation fichier javascript, 
+			defer permet de charger après le reste de la page-->
+		<script type="text/javascript" src="script.js" defer></script>
+		
+		<!-- import des fonts depuis Google Font, ici Raleway et ShadowIntoLightTwo -->
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+		
+		<!-- Pour utiliser des éléments de GetBootStrap.com pour les galleries, menu, ... -->
+		<!-- Attention, c'est la clé du prof, il faut se créer un compte -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	</head>
+	<body>
+
+
+		<section id="intro" class="intro">
+			<div>
+				<!--<img src="images/map-cyan.svg" alt="fond vert">-->
+				
+				<br>
+				<br>
+				<br>	
+				<div >
+					<div class="block_count">
+						<h2>
+							The Count Down
+						</h2>
+						<h3 class="count" id="count">
+							13j 22h 44min 33s 435ms
+						</h3>
+					</div>
+					<div></div>
+					<div class="block_count">
+						<div class="parttitle">
+							<h2>?</h2>
+						</div>
+						<p>Il ne reste plus bcp de temps pour devenir un PM !
+						</p>
+						<div id="typewriter">Hey</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<footer>
+		</footer>
+		<div id="byebye">
+<!--  <a href=""></a> -->
+				<img src="images/fingers.gif">
+				<p>
+				</p>
+		</div>
+	</body>	
+</html>
